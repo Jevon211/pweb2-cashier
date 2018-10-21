@@ -1,0 +1,68 @@
+<!DOCTYPE >
+<html>
+<head>
+<title>WELCOME</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="itungan.js"></script>
+</head>
+
+	
+
+<H2>Jevon's Apple Store</H2>
+<form name="form2" action="#">
+<table border="1px">
+<tr>
+    <th bgcolor="#DC143C">No</th>
+    <th bgcolor="#DC143C">Products</th>
+    <th bgcolor="#DC143C">Price</th>
+    <th bgcolor="#DC143C">Order</th>
+</tr>
+<tr>
+    <td width="20" >1</td>
+    <td width="190">Macbook</td>
+    <td width="90" bgcolor="#DC143C"> &#64; <input type="text" name="Macbook" value="1299" size="7" readonly="readonly"/></td>
+    <td width="160" bgcolor="#DC143C"><input type="text" name="prcMacbook" value="0" onfocus="this.select()" onChange="ordering()"/></td>
+</tr>
+<tr>
+    <td>2</td>
+    <td>Iphone</td>
+    <td bgcolor="#DC143C"> &#64; <input type="text" name="Iphone" value="749" size="7" readonly="readonly"/></td>
+    <td bgcolor="#DC143C"><input type="text" name="prcIphone" value="0" onfocus="this.select()" onChange="ordering()"/></td>
+</tr>
+<tr>
+    <td >3</td>
+    <td>Ipad</td>
+    <td bgcolor="#DC143C"> &#64; <input type="text" name="Ipad" value="899" size="7" readonly="readonly"/></td>
+    <td bgcolor="#DC143C"><input type="text" name="prcIpad" value="0" onfocus="this.select()" onChange="ordering()"/></td>
+</tr>
+
+<tr bgcolor="#DC143C">
+    <td colspan="3" align="right">Total Price</td>
+    <td><input type="text" name="Total" readonly="readonly" /></td>
+</tr>
+<tr>
+    <td colspan="3" align="right">Discount</td>
+    <td><input type="text" name="Discount" readonly="readonly"/></td>
+</tr>
+<tr bgcolor="#DC143C">
+    <td colspan="3" align="right">Paid</td>
+    <td><input type="text" name="Paid" readonly="readonly" align="right"/></td>
+</tr>
+
+<tr>
+    <td colspan="3" align="right">Change</td>
+    <td><input type="text" name="Change" readonly="readonly" align="right"/></td>
+</tr>
+
+
+</table><br/>
+<input type="button" value="CLEAR" onClick="resetForm()" />
+
+
+</form>
+</body>
+
+
+</html>
